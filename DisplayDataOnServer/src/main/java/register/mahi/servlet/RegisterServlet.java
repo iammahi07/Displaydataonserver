@@ -29,7 +29,10 @@ public class RegisterServlet extends HttpServlet {
         String qlfy = req.getParameter("qlfy");
         // hobbies
         String[] hobbies = req.getParameterValues("hb");
+        //created list
         List al = Arrays.asList(hobbies);
+        
+        //added
 
         // add bootstrap
         pw.println(
