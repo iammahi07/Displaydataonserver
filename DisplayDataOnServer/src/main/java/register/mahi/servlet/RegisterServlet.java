@@ -32,8 +32,7 @@ public class RegisterServlet extends HttpServlet {
         //created list
         List al = Arrays.asList(hobbies);
         
-        //added
-
+        //chnaged some details
         // add bootstrap
         pw.println(
                 "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\">\r\n"
